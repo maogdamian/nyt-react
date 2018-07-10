@@ -67,6 +67,7 @@ var Search = React.createClass({
             {/* ++++++++++++++++++++++++++++++++ ITERATE HERE ++++++++++++++++++++++++++++++++ */}
             {/* Here we use a map function to loop through an array in JSX */}
             {this.props.apiResults.map(function(search, i) {
+
               // Build array of articles
               that.state.arrayOfArticles.push({
                 id: search._id,
@@ -74,6 +75,7 @@ var Search = React.createClass({
                 date: search.pub_date,
                 url: search.web_url
               });
+
               return (
                 <li key={search._id} className="list-group-item" style={ {borderWidth: "0px"} }>
                   <div className="input-group">

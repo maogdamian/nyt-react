@@ -59,6 +59,7 @@ var Saved = React.createClass({
             {/* ++++++++++++++++++++++++++++++++ ITERATE HERE ++++++++++++++++++++++++++++++++ */}
             {/* Here we use a map function to loop through an array in JSX */}
             {this.props.mongoResults.map(function(search, i) {
+
               return (
                 <li key={search._id} className="list-group-item" style={ {borderWidth: "0px"} }>
                   <div className="input-group">
