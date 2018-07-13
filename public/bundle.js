@@ -49,11 +49,7 @@
 
 	"use strict";
 	
-	// @author: Thomas Thompson
-	// @github: tomtom28
-	// @comment: HW for Week 19 - NY Time Article Search with ReactJS!
-	
-	
+
 	// Include the Main React Dependencies
 	var React = __webpack_require__(/*! react */ 1);
 	var ReactDOM = __webpack_require__(/*! react-dom */ 32);
